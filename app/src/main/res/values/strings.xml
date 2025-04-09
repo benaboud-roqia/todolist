@@ -1,19 +1,19 @@
-<resources>
-    <string name="app_name">todolist</string>
-    <string name="app_name">TodoList</string>
 
-    <!-- Task Status -->
-    <string-array name="task_status">
-        <item>Not Started</item>
-        <item>In Progress</item>
-        <item>Completed</item>
-    </string-array>
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <string name="app_name" translatable="false">Todolist</string>
 
-    <!-- Task Categories -->
-    <string-array name="task_categories">
-        <item>Work</item>
-        <item>Personal</item>
-        <item>Study</item>
-        <item>Other</item>
-    </string-array>
-</resources>
+        <!-- Task Status -->
+        <string-array name="task_status">
+            <item>Not Started</item>
+            <item>In Progress</item>
+            <item>Completed</item>
+        </string-array>
+
+        <!-- Task Categories -->
+        <string-array name="task_categories">
+            <item>Work</item>
+            <item>Personal</item>
+            <item>Study</item>
+            <item>Other</item>
+        </string-array>
+    </resources>

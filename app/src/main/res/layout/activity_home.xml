@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:divider="@android:color/darker_gray"
+        android:divider="@color/light_blue"
         android:dividerHeight="1dp"
         android:padding="8dp" />
 
@@ -18,5 +18,6 @@
         android:id="@+id/addTaskButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:divider="@color/light_blue"
         android:text="Add New Task" />
 </LinearLayout>
